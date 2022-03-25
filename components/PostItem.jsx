@@ -10,7 +10,7 @@ const PostItem = ({ selectUser, post }) => {
         {txtSlicer(title, 25)}
       </p>
       <p className="mb-8">
-        <span className="bold">ID</span> {id}
+        <span className="bold">ID:</span> {id}
       </p>
       <p className="mb-8">
         <span className="bold">Description</span>: {txtSlicer(body, 25)}

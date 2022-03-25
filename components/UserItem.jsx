@@ -3,10 +3,22 @@ const UserItem = ({ selectUser, user }) => {
 
   return (
     <div className="box" onClick={() => selectUser(user)}>
-      <h3>{name}</h3>
-      <p>ID: {id}</p>
-      <p>Username: {username}</p>
-      <p>Email: {email}</p>
+      <p className="mb-8">
+        <span className="bold">ID: </span>
+        {id}
+      </p>
+      <p className="mb-8">
+        <span className="bold">Name: </span>
+        {name}
+      </p>
+      <p className="mb-8">
+        <span className="bold">Username: </span>
+        {username}
+      </p>
+      <p className="mb-8">
+        <span className="bold">Email: </span>
+        {email}
+      </p>
     </div>
   );
 };
