@@ -24,7 +24,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #ff5252;
+  background: #6a6a6ad4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,7 +103,7 @@ a {
 
 .tabs-navigator li.active {
   background-color: #1b1464;
-  color: #fff;
+  color: #1b1464;
 }
 
 .box {
@@ -117,7 +117,7 @@ a {
 
 .box:hover {
   background-color: #1b1464;
-  color: #fff;
+  color: #1b1464;
 }
 
 .box a {
