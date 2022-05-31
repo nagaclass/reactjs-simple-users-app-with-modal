@@ -103,7 +103,7 @@ a {
 
 .tabs-navigator li.active {
   background-color: #1b1464;
-  color: #1b1464;
+  color: #fff;
 }
 
 .box {
@@ -117,7 +117,7 @@ a {
 
 .box:hover {
   background-color: #1b1464;
-  color: #1b1464;
+  color: #fff;
 }
 
 .box a {
